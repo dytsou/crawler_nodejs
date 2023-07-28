@@ -1,7 +1,7 @@
 const axios = require('axios');//to use http get
 const cheerio = require('cheerio');
 
-const topics = [];
+const topics = [];//empty container
 
 async function getPage(){
     const res = await axios.get('https://pinghsieh.github.io/ioc535526_2022fall.html');
